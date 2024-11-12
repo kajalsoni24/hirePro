@@ -140,7 +140,7 @@ export default function Jobs() {
                   type="submit"
                   className="btn-primary"
                 >
-                  gotcha
+                  Save
                 </button>
               </div>
             </form>
