@@ -25,7 +25,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   HirePro
                 </span>
               </div>
-              <div className="hidden sm:ml-8 sm:flex sm:space-x-8">
+              <div className=" sm:ml-8 sm:flex sm:space-x-8">
                 {navigation.map((item) => (
                   <Link
                     key={item.name}
