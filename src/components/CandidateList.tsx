@@ -45,7 +45,7 @@ export default function CandidateList({
                   <option value="rejected">Rejected</option>
                 </select>
               </div>
-              <div className="mt-2 flex items-center text-sm text-gray-500 space-x-4">
+              <div className="mt-2 flex items-center text-sm text-gray-500 space-x-4 flex-wrap">
                 <span className="flex items-center">
                   <Mail className="h-4 w-4 mr-1" />
                   {candidate.email}
